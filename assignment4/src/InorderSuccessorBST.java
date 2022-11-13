@@ -5,6 +5,7 @@ public class InorderSuccessorBST {
         Stack<TreeNode> stack = new Stack<>();
         TreeNode cur = root;
         TreeNode pre = null;
+
         while (!stack.isEmpty() || cur != null) {
             while (cur != null) {
                 stack.add(cur);
