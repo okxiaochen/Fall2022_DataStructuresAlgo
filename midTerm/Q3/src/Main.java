@@ -11,6 +11,8 @@ public class Main {
         System.out.println(results);
     }
 
+    // time complexity: O(N)
+    // space complexity: O(N)
     private static void recursion(Node<Integer> node, int min, int max, ArrayList<Integer> res) {
         if (node == null) {
             return;

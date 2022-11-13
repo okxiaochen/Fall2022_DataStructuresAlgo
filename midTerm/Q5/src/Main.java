@@ -12,6 +12,8 @@ public class Main {
     // arr = [0,0,0,0,0,1,1,1,1,2,2,5,5,5,8,9,10,11]
     // values = [1,4,5,10]
     // output = [5, -1, 11, 16]
+    // time complexity: O(N) N means the length of the arr
+    // space complexity: O(N)
     private static int[] getStartOfEachValues(int[] arr, int[] values) {
         int[] indexes = new int[values.length];
         HashMap<Integer, Integer> hm = new HashMap<>();
